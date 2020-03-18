@@ -87,7 +87,7 @@ class _NewTransactionState extends State<NewTransaction> {
                     Expanded(
                       child: Text(
                         _selectedDate == null
-                            ? 'No date yet!'
+                            ? 'No date choosen!'
                             : 'Picked Date: ${DateFormat.yMd().format(_selectedDate)}',
                       ),
                     ),
